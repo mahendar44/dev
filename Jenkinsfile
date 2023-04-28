@@ -16,5 +16,12 @@ pipeline{
                 echo 'build succed'
             }
         }
+        stage ('test') {
+
+            steps {
+
+                echo 'test succed'
+            }
+        }
     }
 }
